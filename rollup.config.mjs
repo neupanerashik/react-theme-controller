@@ -19,7 +19,7 @@ export default {
   plugins: [
     resolve(),
     commonjs(),
-    typescript({ useTsconfigDeclarationDir: true }),
+    typescript({ useTsconfigDeclarationDir: true, abortOnError: false }),
   ],
   external: ["react", "react-dom"],
 };

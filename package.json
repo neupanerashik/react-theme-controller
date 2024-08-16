@@ -2,6 +2,7 @@
   "name": "react-theme-controller",
   "version": "1.0.1",
   "description": "A package useful for creating themes on your react application.",
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -18,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neupanerashik/react-theme.git"
+    "url": "git+https://github.com/neupanerashik/react-theme-controller.git"
   },
   "keywords": [
     "Theme",
@@ -28,23 +29,17 @@
   "author": "Rashik Neupane",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/neupanerashik/react-theme/issues"
+    "url": "https://github.com/neupanerashik/react-theme-controller/issues"
   },
-  "homepage": "https://github.com/neupanerashik/react-theme#readme",
-  "dependencies": {
+  "homepage": "https://github.com/neupanerashik/react-theme-controller#readme",
+  "devDependencies": {
     "@babel/cli": "^7.24.8",
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/preset-react": "^7.24.7",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "react-select": "^5.8.0"
-  },
-  "devDependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "rollup": "^2.79.1",
+    "rollup": "^4.20.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-typescript2": "^0.36.0",

@@ -6,11 +6,6 @@ import React, {
   useState,
 } from "react";
 
-interface ThemeContextType {
-  theme: string;
-  toggleTheme: () => void;
-}
-
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 interface ThemeProviderProps {
