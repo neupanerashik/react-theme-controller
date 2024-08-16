@@ -8,3 +8,9 @@ interface ThemeContextType {
   theme: string;
   toggleTheme: () => void;
 }
+
+interface ThemeProviderProps {
+  children: React.ReactNode;
+}
+
+type Theme = "light" | "dark";
