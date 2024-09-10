@@ -1,6 +1,6 @@
 {
   "name": "react-theme-controller",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package useful for creating themes on your react application.",
   "type": "module",
   "main": "dist/index.js",
